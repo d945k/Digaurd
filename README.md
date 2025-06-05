@@ -13,7 +13,7 @@ Secure handling of API keys (not committed to version control)
 
 🚀 Getting Started
 
-1- Clone the repository:11111
+1- Clone the repository:(https://github.com/d945k/Digaurd.git)
 2- Load the extension in Chrome:
 Go to chrome://extensions/
 Enable Developer mode
