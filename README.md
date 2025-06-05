@@ -88,22 +88,22 @@ The project follows a modular structure:
 
 icons/
 Contains icon files for the extension.
-manifest.json
+manifest.json/
 Configuration file for the Chrome extension.
-background.js
+background.js/
 Background script to monitor navigation and check restricted domains.
-warning.html
+warning.html/
 Warning page displayed to the user for restricted domains.
-redirect.html
+redirect.html/
 Optional intermediate redirection page.
-credentials.js
+credentials.js/
 Securely stores the Google Sheets API key and sheet ID.
-README.md
+README.md/
 Documentation explaining the extension and its functionality.
 
 Usage
 Install the extension by loading the unpacked folder in Chrome.
-Navigate to any website. If the domain is listed in your Google Sheet, the warning page will appear.
+Navigate to any website. If the domain is listed in our Google Sheets or virustotals's, the warning page will appear.
 On the warning page:
 Click Proceed to continue navigating to the restricted domain.
 Click Cancel to navigate back to the previous page.
@@ -128,4 +128,4 @@ License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Contact
-For questions, feedback, or support, please contact the project maintainer at your-email@example.com .
+For questions, feedback, or support, please contact the project maintainer at dania.sameer.kamal@gmail.com.
