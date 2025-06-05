@@ -1,8 +1,5 @@
-DiGuard – Chrome Extension
-
 
 <p align="center">
-  DiGuard – Chrome Extension
   <img src="icons/icon128.png" alt="DiGuard Icon" width="128">
 </p>
 
