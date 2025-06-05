@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Warning: Potentially Harmful Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2em;
+            background-color: #09152D;
+        }
+
+        .warning {
+            background-color: #09152D;
+            border: 2px solid #3F92BE;
+            padding: 1.5em;
+            border-radius: 5px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .warning-title {
+            color: gray;
+            font-size: 6em;
+            margin-bottom: 0.5em;
+        }
+
+        .warning-p {
+            font-size: 3em;
+            color: #EAF8FF;
+        }
+
+        .details {
+            margin-top: 1em;
+            color: #EAF8FF;
+        }
+
+         .category {
+            color: gray;
+            font-size: 4em;
+        }
+
+        .description {
+            color: #EAF8FF;
+            font-size: 3em;
+        }
+
+        button {
+            margin: 0.5em;
+            padding: 0.7em 1.2em;
+            font-size: 1em;
+            cursor: pointer;
+            color: #fff;
+            background-color: #3F92BE;
+            border-color: #fff;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body>
+<div class="warning">
+    <img src="icons/icon128.png" alt="Warning Icon" width="200" height="200">   
+    <h1 class="warning-title">Warning!</h1>
+    
+    <p class="warning-p">This site has been flagged as harmful.</p>
+    <div class="details">
+        <p class="category"><strong>Category:</strong> <span id="category">Loading...</span></p>
+        <p class="description"><strong>Description:</strong> <span id="domainDescription">Loading...</span></p>
+    </div>
+    <div>
+        <button id="proceed">Proceed Anyway</button>
+        <button id="cancel">Cancel</button>
+    </div>
+</div>
+<script src="warning.js"></script>
+</body>
+</html>

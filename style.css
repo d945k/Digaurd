@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #controls {
+    margin-bottom: 15px;
+  }
+  
+  #urlInput {
+    padding: 5px;
+    width: 70%;
+    margin-right: 5px;
+  }
+  
+  #addUrl {
+    padding: 5px 10px;
+  }
+  
+  #blacklist {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  

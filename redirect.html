@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<p>Redirecting to the requested page...</p>
+
+<script>
+    // Retrieve the original URL from browser storage
+    chrome.storage.local.get(['originalUrl'], function(result) {
+        if (result.originalUrl) {
+            // Redirect to the original URL
+            window.location.href = result.originalUrl;
+        } else {
+            // Fallback to a safe location
+            window.location.href = 'about:blank';
+        }
+    });
+</script>
+</body>
+</html>
