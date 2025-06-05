@@ -3,18 +3,18 @@ DiGuard - Chrome Extension
 Overview
 DiGuard is a Chrome extension designed to protect users from visiting potentially harmful or restricted websites. It monitors user navigation in real-time and checks visited domains against a list of restricted domains stored in a Google Sheet. If a restricted domain is detected, the user is redirected to a warning page where they can choose to proceed or cancel navigation.
 
-Table of Contents
-Features
-Prerequisites
-Setup Instructions
-How It Works
-Code Structure
-Usage
-Security Considerations
-Contributing
-License
-Features
-Real-time monitoring of visited domains.
+Table of Contents\\\
+Features\
+Prerequisites\
+Setup Instructions\
+How It Works\
+Code Structure\
+Usage\
+Security Considerations\
+Contributing\
+License\
+Features\
+Real-time monitoring of visited domains
 Integration with Google Sheets to manage restricted domains dynamically.
 Customizable warning messages for restricted domains.
 Options for users to either proceed or cancel navigation to restricted domains.
