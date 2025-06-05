@@ -1,4 +1,6 @@
 DiGuard – Chrome Extension
+![DiGuard Icon](icons/icon128.png)
+
 
 DiGuard is a Chrome extension developed to enhance browsing safety by detecting and blocking access to malicious or restricted websites. It first checks visited domains in real time against a dynamic blacklist stored in Google Sheets. If the domain is not found there, it is then verified using the VirusTotal API. If VirusTotal identifies the domain as malicious, it is automatically added to the DiGuard blacklist and immediately flagged. When a threat is detected, the user is redirected to a warning page with the option to proceed or cancel navigation.
 
